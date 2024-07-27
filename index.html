@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asynchrony Homework</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <ul class="rainbow">
+      <li class="rainbow__item">
+        <div class="rainbow__block block1"></div>
+      </li>
+      <li class="rainbow__item">
+        <div class="rainbow__block block2"></div>
+      </li>
+      <li class="rainbow__item">
+        <div class="rainbow__block block3"></div>
+      </li>
+      <li class="rainbow__item">
+        <div class="rainbow__block block4"></div>
+      </li>
+      <li class="rainbow__item">
+        <div class="rainbow__block block5"></div>
+      </li>
+      <li class="rainbow__item">
+        <div class="rainbow__block block6"></div>
+      </li>
+      <li class="rainbow__item">
+        <div class="rainbow__block block7"></div>
+      </li>
+    </ul>
+
+    <!--  EXERCISE 3 -->
+
+    <button class="start-btn">Почати гру</button>
+    <div class="game-area hidden">
+      <div class="score">Очки: 0</div>
+      <div class="time">Час: 30</div>
+      <button class="target">Натискай мене!</button>
+    </div>
+
+    <!-- EXERCISE 4 -->
+
+    <div class="timer-container">
+      <label for="timeInput" class="timer-label"
+        >Введіть час (в секундах):</label
+      >
+      <input type="number" class="time-input" min="1" />
+      <button class="set-timer-btn">Встановити таймер</button>
+    </div>
+    <div class="message hidden">Час вийшов!</div>
+
+    <script type="module" src="./exercise1.js"></script>
+    <script type="module" src="./exercise2.js"></script>
+    <script type="module" src="./exercise3.js"></script>
+    <script type="module" src="./exercise4.js"></script>
+  </body>
+</html>
